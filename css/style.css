@@ -201,9 +201,23 @@ section {
 }
 
 /* ------------------- Seccion de Contacto ------------------- */
+.contact-form .form-control {
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
 
+.contact-info {
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-
+.contact-info i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
 
 /* ------------------- Seccion de Footer ------------------- */
 
