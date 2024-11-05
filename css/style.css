@@ -79,9 +79,28 @@ section {
 }
 
 /* ------------------- Seccion de Nosotros ------------------- */
+.feature-card {
+    padding: 2rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: var(--transition);
+    margin-bottom: 2rem;
+}
 
+.feature-card:hover {
+    transform: translateY(-10px);
+}
 
+.feature-card i {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
 
+.feature-card h3 {
+    margin: 1rem 0;
+    font-weight: 600;
+}
 
 /* ------------------- Seccion de Caracteristicas ------------------- */
 
