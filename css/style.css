@@ -220,9 +220,38 @@ section {
 }
 
 /* ------------------- Seccion de Footer ------------------- */
+footer {
+    background-color: var(--dark-color);
+}
 
+footer h5 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
 
+footer ul li {
+    margin-bottom: 0.8rem;
+}
 
+footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+footer ul li a:hover {
+    color: white;
+    padding-left: 5px;
+}
+
+.newsletter-form .form-control {
+    border-radius: 50px 0 0 50px;
+}
+
+.newsletter-form .btn {
+    border-radius: 0 50px 50px 0;
+}   
 
 /* ------------------- Boton Volver al inicio ------------------- */
 
