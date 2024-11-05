@@ -1,7 +1,61 @@
+/* ------------------- Variables globales ------------------- */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --transition: all 0.3s ease;
+}
+
+/* ------------------- Estilos generales ------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--dark-color);
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
 /* ------------------- Barra de Navegacion ------------------- */
+.navbar {
+    padding: 1rem 0;
+    transition: var(--transition);
+}
 
+.navbar.scrolled {
+    background: white !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
 
+.navbar-brand img {
+    margin-right: 10px;
+}
 
+.nav-link {
+    color: var(--dark-color) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
 
 /* ------------------- Seccion de Introduccion ------------------- */
 
