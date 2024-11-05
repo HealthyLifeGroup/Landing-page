@@ -139,9 +139,37 @@ section {
 }
 
 /* ------------------- Seccion de Testimonios ------------------- */
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
 
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
 
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.testimonial-text {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.testimonial-name {
+    color: var(--primary-color);
+    margin-bottom: 0.3rem;
+}
 
 /* ------------------- Seccion de Equipo ------------------- */
 
