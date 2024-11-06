@@ -104,7 +104,7 @@ section {
 
 /* ------------------- Seccion de Caracteristicas ------------------- */
 .card {
-    border:none;
+    border: none;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: var(--transition);
@@ -132,7 +132,7 @@ section {
 }
 
 .feature-list li:before {
-    content: "✔";
+    content: "✓";
     color: var(--primary-color);
     position: absolute;
     left: 0;
@@ -211,7 +211,7 @@ section {
     padding: 2rem;
     background: white;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .contact-info i {
@@ -254,8 +254,44 @@ footer ul li a:hover {
 }
 
 /* ------------------- Boton Volver al inicio ------------------- */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: var(--transition);
+}
 
-
-
+.back-to-top-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-3px);
+}
 
 /* ------------------- Media Queries ------------------- */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .feature-card, .testimonial-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .team-card img {
+        width: 150px;
+        height: 150px;
+    }
+}
